@@ -25,7 +25,7 @@
 
 #menu li a{
     color: #000;
-    font-size: 2vmin;
+    font-size: 3vmin;
     text-transform: uppercase;
     padding: 10px;
     border-radius: 5px;
@@ -42,14 +42,14 @@
 #title{
     margin: 10px;
     text-align: center;
-    font-size: 4vmin;
+    font-size: 6vmin;
     text-transform: uppercase;
     color: #000;
 }
 
 #subtitle{
     color: #fff;
-    font-size: 3vmin;
+    font-size: 4vmin;
     text-align: center;
     text-transform: uppercase;
 }
