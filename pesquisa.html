@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Loja Material de Construção</title>
+    <title>Loja Material de Construção | Pesquisa</title>
 </head>
+
 <body>
+
     <header id="header">
+
         <h1 id="title">Loja da Obra | Pesquisa</h1>
-        <div id="box-search">
-            <form action="" id="form">
-                <input type="text" id="search">
-                <input type="button" value="" id="btn">
-            </form>
+
+        <div class="box-menu">
+
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a class="page" href="pesquisa.html">Pesquisa</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="orcamento.html">Orçamento</a></li>
+                </ul>
+            </nav>
+
+            <div id="box-search">
+                <form action="" id="form">
+                    <input type="text" id="search" placeholder="Procurar...">
+                    <input type="button" value="Enviar" id="btn">
+                </form>
+            </div>
         </div>
-        <nav id="menu">
-            <ul>
-                <li><a href="index.html" lang="en">Home</a></li>
-                <li><a href="pesquisa.html">Pesquisa</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="orcamento.html">Orçamento</a></li>
-            </ul>
-        </nav>
     </header>
+
     <div id="box">
-        <form action="">
-            <label for=""></label>
-            <input type="text">
+        <h2 id="subtitle">
+            Maiores ofertas em Materiais de Construção do Brasil
+        </h2>
+    </div>
+
+    <div id="box-search">
+        <form id="form-search" method="get">
+            <label for="cSearch">Pesquisa:</label>
+            <input type="text" id="cSearch" placeholder="Pesquisar...">
         </form>
     </div>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -68,4 +85,5 @@
         </div>
     </footer>
 </body>
+
 </html>
